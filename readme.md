@@ -18,6 +18,8 @@ console.log(list_requires(code));
 // will output ['foo', 'bar']
 ```
 
+If you want to list calls to some function other than `require`, please use [list_requires_multi](https://github.com/gkovacs/list_requires_multi) instead.
+
 ## License
 
 MIT

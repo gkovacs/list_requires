@@ -1,6 +1,6 @@
 {
   "name": "list_requires",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List the libraries required by some Javascript code by parsing it",
   "main": "index.js",
   "scripts": {
