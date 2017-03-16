@@ -1,6 +1,6 @@
 {
   "name": "list_requires",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "List the libraries required by some Javascript code by parsing it",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/gkovacs/list_requires#readme",
   "dependencies": {
-    "esprima": "^2.7.2",
+    "espree": "^3.4.0",
     "esprima-walk": "^0.1.0"
   },
   "devDependencies": {

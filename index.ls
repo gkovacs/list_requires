@@ -1,12 +1,13 @@
 require! {
-  esprima
+  espree
 }
 
 walk = require 'esprima-walk'
 
 list_requires = (code) ->
-  parsed = esprima.parse code, {
+  parsed = espree.parse code, {
     tolerant: true
+    ecmaVersion: 8
   }
   output = []
   output_set = {}
